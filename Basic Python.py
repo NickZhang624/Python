@@ -1,25 +1,20 @@
-
+# python
 
 print("C:\now")
 
 print("C:\\now")
 
-str="C:\now"
+str = "C:\now"
 print(str)
 
-str=r"C:\now"
+str = r"C:\now"
 print(str)
 
+print(78 // 5)
 
+print(3 ** 3)
 
-print(78//5)
-
-print(3**3)
-
-print(78/5)
-
-
-
+print(78 / 5)
 
 name = "nickzhang"
 for i in name:
@@ -40,22 +35,18 @@ for i in range(2, 8):
 for i in range(0, 10, 2):
     print(i)
 
-
-
-number="8"
+number = "8"
 answer = input("please enter a number?")
 
 while True:
     if number == answer:
         break
-    answer=input("Please try again!")
+    answer = input("Please try again!")
 print("you are right")
 
 for i in range(10):
-    if i%2 != 0:
+    if i % 2 != 0:
         print(i)
         continue
     i += 2
     print(i)
-
-
