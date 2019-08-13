@@ -1,4 +1,4 @@
-#Tuple----------------------------
+# Tuple----------------------------
 
 tuple=("nick", "zhang", "ucol")
 print(tuple)
@@ -9,7 +9,7 @@ print(tuple[:2])
 
 print(tuple[1:])
 
-#Add new element to tuple
+# Add new element to tuple
 temp=(tuple[:2]) + ("Athar", ) + (tuple[1:])
 print(temp)
 
