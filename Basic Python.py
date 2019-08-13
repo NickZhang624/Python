@@ -1,4 +1,4 @@
-
+# operator
 print("C:\now")
 
 print("C:\\now")
@@ -8,12 +8,47 @@ print(str)
 
 str = r"C:\now"
 print(str)
+print("-----------------------------")
 
+# numbers
 print(78 // 5)
 
 print(3 ** 3)
 
 print(78 / 5)
+print("-----------------------------")
+
+
+# string
+print("I love {0}".format("Python"))
+print("I love {a}".format(a="Python"))
+
+string = "I love Python"
+print(string[2:])
+
+print(string[:1] + " realy " + string[2:])
+
+print(string.center(50))
+
+print(string.count("o"))
+
+print(string.find("love"))
+
+print(string.join("1234"))
+
+print((string.center(50)).strip())
+
+print(len(string))
+
+print(string.replace("I", "You"))
+
+#?????
+print(string.partition(" "))
+print((string.partition(" ")))
+
+print(string.split(" "))
+
+print("-----------------------------")
 
 name = "nickzhang"
 for i in name:
