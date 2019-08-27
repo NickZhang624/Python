@@ -28,7 +28,7 @@ class Nation:
         self.country = country
 
     def show(self):
-        print("I live in %s" % self.country)
+        print("I live in" + self.country)
 
 
 a = Nation()
