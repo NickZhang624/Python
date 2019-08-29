@@ -20,6 +20,8 @@ celine = []
 mark = []
 chairwoman = []
 movie1 = []
+all = []
+count = 0
 
 # for each in f:
 #     if each[:5] != "=====":
@@ -48,11 +50,17 @@ movie1 = []
 for eachmovie in f:
     w = eachmovie.split("\n")
     w.pop()
+    all.append(w)
+    count += 1
+    # w = "list" + str(count)
+    # count += 1
+    print(all)
 
-    if w[:] != "======":
-        print(w)
-    else:
-        print(w)
+
+    # if w[:] != "======":
+    #     print(w)
+    # else:
+    #     print(w)
 
 
 
