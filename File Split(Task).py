@@ -12,6 +12,7 @@
 # This is task to split above movie dialogue
 # No.1 Save dialogue to txt.file separately according to different people
 # No.2 Save two dialogues to txt.file which split by "========"
+
 f = open('/Users/nick/Desktop/Movie.txt')
 
 jesse = []
@@ -20,37 +21,43 @@ mark = []
 chairwoman = []
 movie1 = []
 
-for each in f:
-    if each[:5] != "=====":
-        (people, dialogue) = each.split(":", 1)
-        if people == "Jesse":
-            jesse.append(people + ":" + dialogue)
-            j = open('/Users/nick/Desktop/Jesse.txt', "w")
-            j.writelines(jesse)
-        if people == "Celine":
-            celine.append(people + ":" + dialogue)
-            c = open('/Users/nick/Desktop/Celine.txt', "w")
-            c.writelines(celine)
-        if people == "Chairwoman":
-            chairwoman.append(people + ":" + dialogue)
-            h = open('/Users/nick/Desktop/Chairwoman.txt', "w")
-            h.writelines(chairwoman)
-        if people == "Mark":
-            mark.append(people + ":" + dialogue)
-            h = open('/Users/nick/Desktop/Mark.txt', "w")
-            h.writelines(mark)
-    else:
-        pass
-f.close()
+# for each in f:
+#     if each[:5] != "=====":
+#         (people, dialogue) = each.split(":", 1)
+#         if people == "Jesse":
+#             jesse.append(people + ":" + dialogue)
+#             j = open('/Users/nick/Desktop/Jesse.txt', "w")
+#             j.writelines(jesse)
+#         if people == "Celine":
+#             celine.append(people + ":" + dialogue)
+#             c = open('/Users/nick/Desktop/Celine.txt', "w")
+#             c.writelines(celine)
+#         if people == "Chairwoman":
+#             chairwoman.append(people + ":" + dialogue)
+#             h = open('/Users/nick/Desktop/Chairwoman.txt', "w")
+#             h.writelines(chairwoman)
+#         if people == "Mark":
+#             mark.append(people + ":" + dialogue)
+#             h = open('/Users/nick/Desktop/Mark.txt', "w")
+#             h.writelines(mark)
+#     else:
+#         pass
+# f.close()
 
-
-f = open('/Users/nick/Desktop/Movie.txt')
+# f = open('/Users/nick/Desktop/Movie.txt')
 for eachmovie in f:
-    if eachmovie[:5] != "======":
-        (people, dialogue) = eachmovie.split(":", 1)
-        movie1.append(people + ":" + dialogue)
+    w = eachmovie.split("\n")
+    w.pop()
+
+    if w[:] != "======":
+        print(w)
     else:
-        f.close()
+        print(w)
 
 
 
+
+        # (people, dialogue) = eachmovie.split(":", 1)
+        # movie1.append(people + ":" + dialogue)
+    # else:
+    #     f.close()
