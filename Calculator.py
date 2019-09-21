@@ -35,7 +35,6 @@ def again():
 
 
 def calculator():
-    welcome()
     x = input("Please enter your first number: ")
     choice = input("Please enter your arithmetic code\n(Example: 1 + 2, enter '2' to calculate Add arithmetic): ")
     y = input("Please enter you second number: ")
@@ -53,4 +52,5 @@ def calculator():
     again()
 
 
+welcome()
 calculator()
