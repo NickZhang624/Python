@@ -1,3 +1,7 @@
+# This is eighth part to introduce Python function
+# A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.
+
+# In Python a function is defined using the def keyword:
 def FirstFunction():
     print("the first function")
 
@@ -16,14 +20,16 @@ def add(num1, num2):
 add(3,4)
 
 print("-----------------------------------")
-# Keyword Parameters
 
+
+# Keyword Parameters
 def Name(name, age):
     print("My name is " + name + ", " + str(age) + " years old")
 
 Name("nick" , 23)
 
 Name(age=28, name="Zoe")
+
 
 # Default parameter value
 def Name1(name="Nick", age=24):
@@ -32,6 +38,8 @@ def Name1(name="Nick", age=24):
 Name1()
 
 print("-------------------------------------")
+
+
 # collect parameters
 def test(*par):
     print("The length is: ", len(par))
@@ -52,8 +60,9 @@ def test1(*par, name="Athar"):
 test1(1, "nick", 2.3, "!")
 
 print("-------------------------------------")
-# return
 
+
+# return
 def hello():
     print("Hello nick")
 hello()
@@ -64,21 +73,23 @@ print(temp)
 
 print(type(temp))
 
+
 # return list
 def back():
     return [1, "nick", 3.4]
 print(back())
 
-# return tuple
 
+# return tuple
 def back1():
     return 1, "Nick", 3.5
 
 print(back1())
 
 print("-------------------------------------")
-# local variable and global variable
 
+
+# local variable and global variable
 def discount(price, rate):
     final_price = price * rate
     # here trying to print global variable
@@ -93,6 +104,8 @@ print("Discount price is: ", new_price)
 # can not print "final_price" as it is a local variable
 
 print("-------------------------------------")
+
+
 # modify global variable value
 count = 3
 def Cou():
@@ -110,6 +123,8 @@ def Cou():
 Cou()
 print(count)
 print("-------------------------------------")
+
+
 # internal function
 def fun1():
     print("print fun1")
@@ -120,6 +135,8 @@ def fun1():
 fun1()
 
 print("---------------------------------------")
+
+
 # closure
 def funx(x):
     def funy(y):
@@ -134,6 +151,7 @@ print(i(10000))
 
 print(funx(5)(6))
 
+
 # three elements
 def funx(x):
     def funy(y):
@@ -143,6 +161,7 @@ def funx(x):
     return funy
 
 print(funx(3)(4)(5))
+
 
 # Nonlocal function
 def fun3():
