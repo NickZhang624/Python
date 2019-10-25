@@ -1,3 +1,6 @@
+#This is second part to introduce Python if else/ elif statements
+
+#numerical comparsion using if statements
 a = 50
 b = 20
 
@@ -6,6 +9,7 @@ if a < b:
 else:
     print("right")
 
+#This sample introduce if elif statements to implement a score rank by if elif statements
 score = input("Please enter your score?")
 if 100>= int(score) >=90:
     print("A")
@@ -19,6 +23,7 @@ else:
     print("Please only enter your score number from 0 to 100")
 
 
+#ohter way to compare the size of numbers using if statements
 x, y =4, 5
 if x<y:
     print(x)
