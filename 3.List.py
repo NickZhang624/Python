@@ -1,7 +1,11 @@
 
-# List----------------------------------
+# This is third part to introduce Python list function
+# List is a collection which is ordered and changeable. Allows duplicate members.
+# Tuple is a collection which is ordered and unchangeable. Allows duplicate members.(extension)
+# Set is a collection which is unordered and unindexed. No duplicate members.(extension)
+# Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.(extension)
 
-# append, extend, insert
+# append, extend, insert functions
 member = ["nick", "zhang"]
 print(member)
 
@@ -17,7 +21,7 @@ print(member)
 member.insert(0, "ucol")
 print(member)
 
-# remove, del, pop
+# remove, del, pop funtion
 member = ["nick", "zhang", "athar", "ucol"]
 member.remove("athar")
 print(member)
@@ -28,7 +32,7 @@ print(member)
 print(member.pop(0))
 
 
-# slice
+# slice funtion
 member = ["nick", "zhang", "athar", "ucol"]
 print(member[1:3])
 print(member)
@@ -40,7 +44,7 @@ member2 = member[0:4]
 print(member2)
 
 
-# count, index, reverse, sort
+# count, index, reverse, sort funtion
 member = ["nick", "zhang", "athar", "ucol"]
 
 print(member.count("nick"))
