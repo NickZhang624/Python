@@ -1,10 +1,12 @@
 
 # This is third part to introduce Python list function
 # List is a collection which is ordered and changeable. Allows duplicate members.
+
 # Tuple is a collection which is ordered and unchangeable. Allows duplicate members.(extension)
 # Set is a collection which is unordered and unindexed. No duplicate members.(extension)
 # Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.(extension)
 
+# A list is a collection which is ordered and changeable. In Python lists are written with square brackets.
 # append, extend, insert functions
 member = ["nick", "zhang"]
 print(member)
