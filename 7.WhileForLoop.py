@@ -1,4 +1,6 @@
-# While loop
+#This is seventh part to introduce Python While loop
+
+#The break Statement, The continue Statement
 a = 2
 while a < 6:
     print(a)
@@ -16,8 +18,9 @@ while a <10:
         continue
     print(a)
 print("=====================")
-#for loop
 
+
+#for loop, for loop with list, for loop with range function
 b = "nick"
 for i in b:
     print(i)
