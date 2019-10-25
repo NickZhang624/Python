@@ -1,3 +1,5 @@
+#This is first topic about Python
+
 # operator
 print("C:\now")
 
