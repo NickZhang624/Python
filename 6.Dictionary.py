@@ -1,6 +1,12 @@
-# Dictionary------------------
-# Dic ={key: value}
+# This is sixth part to introduce Python Dictionary
+#Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
 
+#List is a collection which is ordered and changeable. Allows duplicate members.(extension)
+#Tuple is a collection which is ordered and unchangeable. Allows duplicate members.(extension)
+#Set is a collection which is unordered and unindexed. No duplicate members.(extension)
+
+# Dic ={key: value}
+#A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
 dic = {1: "Nick", 2: "Zhang", 3:"Ucol"}
 print(dic)
 
