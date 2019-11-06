@@ -1,3 +1,7 @@
+#This is a task to create a Calculator by Python
+
+#This is a welcome output about how to use this calculator
+#User need to input "1-4" to represent add, substract, mutiply, divide
 def welcome():
     print("Welcome to Python Calculator!\nPlease following the instruction below:  ")
     print("\nPlease select a number to calculate")
@@ -6,7 +10,7 @@ def welcome():
     print("3 for Multiplication")
     print("4 for Division")
 
-
+#These for functions are calculation method
 def add(x, y):
     return float(x) + float(y)
 
@@ -22,7 +26,7 @@ def multiply(x, y):
 def divide(x, y):
     return float(x) / float(y)
 
-
+#This is a loop funtion to let user continue or exit
 def again():
     message = input("Please enter 'y' continue calculate otherwise enter 'n' Exit this program: ")
 
@@ -33,7 +37,7 @@ def again():
     else:
         again()
 
-
+#This is main function to call all functions above excluding welcome()
 def calculator():
     x = input("Please enter your first number: ")
     choice = input("Please enter your arithmetic code\n(Example: 1 + 2, enter '2' to calculate Add arithmetic): ")
@@ -52,5 +56,6 @@ def calculator():
     again()
 
 
+# Execute functions
 welcome()
 calculator()
