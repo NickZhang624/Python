@@ -1,20 +1,22 @@
-# This is ninth part to introduce Python function
-# A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.
+# This is ninth part to introduce Python lambda
+# A lambda function is a small anonymous function.
 
-# In Python a function is defined using the def keyword:
+# A lambda function can take any number of arguments, but can only have one expression.
 
 g = lambda x: 2*x +1
 
 print(g(5))
 
+# function way to calculate 
 def add(x, y):
     return x+y
 print(add(3,4))
 
+# lambda way to calculate
 add= lambda x,y:x+y
 print(add(3,4))
 
-
+# embedded lambda in function
 def func(x):
     return lambda y:y*x
 
