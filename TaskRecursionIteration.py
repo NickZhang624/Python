@@ -1,3 +1,5 @@
+#This small task uses recursion, iteration in Python programme and a famous sample Tower of Hanoi
+
 # recursion
 def rec(n):
     if n == 1:
