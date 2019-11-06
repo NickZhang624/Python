@@ -1,3 +1,11 @@
+#This is tenth topic about Python class and objects.
+#Content included "print" "Variables" "Comments" "program execution" and more basic Python function, and
+#introduce further function like "foreach", etc
+
+#Python is an object oriented programming language.
+#Almost everything in Python is an object, with its properties and methods.
+#A Class is like an object constructor, or a "blueprint" for creating objects.
+
 class Nick:
     # variable
     age = 28
