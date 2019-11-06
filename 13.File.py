@@ -1,3 +1,7 @@
+#This is thirteen topic about Python File.
+#File handling is an important part of any web application.
+#Python has several functions for creating, reading, updating, and deleting files.
+
 f = open('/Users/nick/Desktop/Movie.txt')
 # print(f.read())
 # print(f.read(10))
