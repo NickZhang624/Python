@@ -1,3 +1,8 @@
+#This is a calculator using tkinter toolkit
+
+#Tkinter is a Python binding to the Tk GUI toolkit.
+#It is the standard Python interface to the Tk GUI toolkit,and is Python's de facto standard GUI.
+
 from tkinter import *
 
 # creating basic window
@@ -6,7 +11,7 @@ window.geometry("375x320")
 window.resizable(100, 100)  # this prevents from resizing the window
 window.title("Calculator")
 
-
+# define button function
 def btn_click(item):
     global expression
     expression = expression + str(item)
@@ -25,11 +30,12 @@ def btn_equal():
     input_text.set(result)
     expression = ""
 
-
+# initial expression
 expression = ""
 
 input_text = StringVar()
 
+# user interface setting
 input_frame = Frame(window, width=312, height=50, bd=0, highlightbackground="black", highlightcolor="black",
                     highlightthickness=1)
 input_frame.pack(side=TOP)
