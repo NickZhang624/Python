@@ -1,8 +1,16 @@
-import random
+#This is a small task called Hangman.
+#This task will cover some Python principles I have learned before.
 
+#Hangman is a script of the classic game "Hangman". 
+#The word to guess is represented by a row of dashes.
+#If the player guess a letter which exists in the word, the script writes it in all its correct positions.
+#The player has 8 turns to guess the word. You can easily customize the game by changing the variables.
+
+#Import relvant libraries
+import random
 from pip._vendor.distlib.compat import raw_input
 
-
+#this function is to import words file and trim all words
 def chooseWord():
     file = open('/Users/nick/Desktop/words.txt')
     words = file.readlines()
@@ -16,7 +24,7 @@ def chooseWord():
     myword = myword.lower()
     return myword
 
-
+#this is main program including input information casting and if statement to loop  
 def hangman():
     guesses = 0
     word = chooseWord()
