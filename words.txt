@@ -984,5 +984,3 @@ bank
 finish
 affair
 oh
-animal
-hope
